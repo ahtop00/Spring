@@ -1,11 +1,11 @@
 # 2주차 미션: 쿼리 작성
-![img.png](week2_erd(ver2).png)
-- 1주차에서 약간의 보완을 하였습니다.
+![week2_erd(ver2).png](image%2Fweek2_erd%28ver2%29.png)
+- 1주차에서 약간의 보완을 하였습니다. 
 
 ---
 
 ## 1번 예시
-![img.png](week2_m1.png)
+![week2_m1.png](image%2Fweek2_m1.png)
 
 - 내가 진행중, 진행 완료한 미션 모아서 보는 쿼리(페이징 포함)
 - 필요한 내용: 가게이름, 해당 미션의 포인트, 해당 미션의 성공 여부, 해당 미션의 내용
@@ -24,7 +24,7 @@ LIMIT 20 OFFSET (n-1) * 20; //실제로는 n-1 대신 실제 값이 쿼리문에
 ---
 
 ## 2번 예시
-![img.png](week2_m2.png)
+![week2_m2.png](image%2Fweek2_m2.png)
 - 리뷰 작성하는 쿼리, 사진의 경우는 일단 배제
 - 필요한 내용: 해당 가게의 아이디, 리뷰의 글쓴이, 리뷰 평점, 리뷰 내용
 
@@ -35,7 +35,7 @@ INSERT INTO reviews VALUES ('{store_id}', '{user_id}', '{review_name}', '{review
 ---
 
 ## 3번 예시
-![img.png](week2_m3.png)
+![week2_m3.png](image%2Fweek2_m3.png)
 - 홈 화면 쿼리 (현재 선택 된 지역에서 도전이 가능한 미션 목록, 페이징 포함)
 - 필요한 내용: 지역명, 해당 미션 인덱스, 미션 기한, 해당지역의 수행가능한 미션
 - 
@@ -69,7 +69,7 @@ WHERE mm.member_id = '{current user_id}'
 ---
 
 ## 4번 예시
-![img.png](week2_m4.png)
+![week2_m4.png](image%2Fweek2_m4.png)
 - 필요한 내용: 닉네임, 이메일, 휴대폰 번호, 내 현재 포인트
 
 ```mysql
